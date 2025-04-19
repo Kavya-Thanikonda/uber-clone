@@ -1,3 +1,4 @@
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
@@ -49,6 +50,12 @@ Join our community of developers creating universal apps.
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 
+<<<<<<< HEAD
 ## Install REDUX
 - npm install redux react-redux
 - npm install @reduxjs/toolkit
+=======
+# uber-clone
+- Create the project: npx create-expo-app uber-clone
+- Start the project: npx expo start
+>>>>>>> 77686b7a4af381ad327e352d5ed32eb9ceb5e5ea
