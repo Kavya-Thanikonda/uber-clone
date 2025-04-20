@@ -50,12 +50,14 @@ Join our community of developers creating universal apps.
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 
-<<<<<<< HEAD
-## Install REDUX
+## Install REDUX for state management
 - npm install redux react-redux
 - npm install @reduxjs/toolkit
-=======
-# uber-clone
-- Create the project: npx create-expo-app uber-clone
-- Start the project: npx expo start
->>>>>>> 77686b7a4af381ad327e352d5ed32eb9ceb5e5ea
+
+## Install Tailwind CSS
+- npm install twrnc
+
+## Install react native elements for Icons
+- npm install react-native-elements
+- npm install react-native-vector-icons
+- npm install react-native-safe-area-context
