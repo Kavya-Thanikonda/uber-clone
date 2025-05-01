@@ -7,11 +7,11 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 // React native navigation
 import 'react-native-gesture-handler';
-// import { NavigationContainer } from '@react-navigation/native'; 
+import { NavigationContainer } from '@react-navigation/native';
 
 import { store } from '../../store';
 
-import RootNavigator from '../../navigation/RootNavigator'
+import RootNavigator from '../../navigation/RootNavigator';
 
 
 export default function HomeScreen() {

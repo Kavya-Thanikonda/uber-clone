@@ -7,16 +7,17 @@ import tw from 'twrnc';
 
 import { useNavigation } from '@react-navigation/native';
 
-//
-// import { StackNavigationProp } from '@react-navigation/stack';
+// Resolve the error in onPress={() => navigation.navigate('MapScreen')}
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
-//
+// Define navigator param list
 type RootStackParamList = {
     Home: undefined;
     MapScreen: undefined;
     EatsScreen: undefined;
   };
+// NativeStackNavigationProp is a typescript utility from React Navigation 
+// that creates a type for navigating between screens in a native stack
 type NavigationProp = NativeStackNavigationProp<RootStackParamList>;
 
 // Data array
@@ -42,7 +43,6 @@ const NavOptions = () => {
 
     // Throws error for navigation.navigate
     // const navigation = useNavigation();
-
     const navigation = useNavigation<NavigationProp>();
 
     return (
@@ -54,7 +54,7 @@ const NavOptions = () => {
             keyExtractor={(item) => item.id} // Give unique ID, so we can re-render the one with new key instead of everything
             renderItem={({ item }) => (
                 <TouchableOpacity
-                    onPress={() => navigation.navigate(item.screen as keyof RootStackParamList)}
+                    onPress={() => navigation.navigate(item.screen as keyof RootStackParamList)} // Type 'string' is not assignable to specific screen name types
                     style={tw`p-2 pl-6 pb-6 pt-4 bg-gray-200 m-2 w-40 h-60`}>
                     <View>
                        <Image

@@ -61,3 +61,40 @@ Join our community of developers creating universal apps.
 - npm install react-native-elements
 - npm install react-native-vector-icons
 - npm install react-native-safe-area-context
+
+## Install react native navigation
+- npm install @react-navigation/native
+- npx expo install react-native-screens react-native-safe-area-context
+- npx expo install react-native-gesture-handler
+- npm install @react-navigation/native-stack
+
+## Install react native google places autocomplete
+- npm add react-native-google-places-autocomplete
+
+## Google cloud platform
+- > console > create new project > APIs and services > enable apis and services
+   - Directions API (Directions between multiple locations)
+   - Places API (Get detailed information about 100 million places)
+   - Distance matrix API (Travel time and distance for multiple destinations)
+-> console > "Uber clone" project > APIs and services > Credentials > create API key > Store in the key in .env
+
+
+---------------------------------------------------- NOT REQUIRED ----------------------------------------------------
+## Install react native dot env
+React native dotnet is a handy library that simplifies the process of working with environment variables by loading them from a .env file
+- npm add react-native-dotenv
+
+##
+- npm install babel-preset-expo --save-dev
+
+- rm -rf node_modules .expo .metro
+- rm -f yarn.lock package-lock.json
+- npm install
+
+##
+- npm install expo-router
+-----------------------------------------------------------------------------------------------------------------------
+
+
+## Install for Google auto complete
+- npm install react-native-get-random-values
